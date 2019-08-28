@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Archivo+Narrow|Audiowide|Bungee|Bungee+Hairline|Cantarell|Catamaran|Chilanka|Comfortaa|Crimson+Text|Cuprum|Dosis|Exo+2|Fira+Sans|Fjalla+One|Great+Vibes|Indie+Flower|Josefin+Sans|Julius+Sans+One|Kanit|Lexend+Deca|Lexend+Zetta|Livvic|Lobster|Lobster+Two|Manjari|Merriweather|Monda|News+Cycle|Noto+Sans+SC|Noto+Sans+TC|Open+Sans|Open+Sans+Condensed:300|Orbitron|Pacifico|Pathway+Gothic+One|Patrick+Hand|Pontano+Sans|Poppins|Rajdhani|Raleway|Roboto+Slab|Rubik|Sanchez|Source+Sans+Pro|Tajawal|Titillium+Web|Ubuntu|Unica+One|Varela+Round|Yrsa&display=swap');
+
+/* Global Styles */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --rajdhani: 'Rajdhani', sans-serif;
+    --comfortaa: 'Comfortaa', cursive;
+    --cuprum: 'Cuprum', sans-serif;
+    --chilanka: 'Chilanka', cursive;
+    --livvic:  'Livvic', sans-serif;
+    --fira:  'Fira Sans', sans-serif;
+    --catamaran: 'Catamaran', sans-serif;
+    --Orbitron: 'Orbitron', sans-serif;
+    --poppins: "Poppins", sans-serif;
+    --bungee: "Bungee", cursive;
+    --lobster: "Lobster", cursive;
+    --pacifico: "Pacifico", cursive;
+    --wild-blue: #96ADC8;
+    --tea-green: #D7FFAB;
+    --unmellow-yellow: #FCFF6C;
+    --brown-yellow: #D89D6A;
+    --tuscan-red: #6D454C;
+    --spring-bud: #CACF85;
+    --sea-green: #8CBA80;
+    --des-cyan: #658E9C;
+    --nav-purple: #4D5382;
+    --pinapple: #514663;
+    --mummy-tomb: #808D8E;
+    --old-lavender: #766C7F;
+    --lavender-purple: #947EB0;
+    --blue-bell: #A3A5C3;
+    --pastel-blue: #A9D2D5;
+    --columbis-blue: #C3DFE0;
+    --m-spring-bud: #BCD979;
+    --olivine: #9DAD6F;
+    --deep-taupe: #7D6D61;
+    --wenge: #5E574D;
+    --charlston-green: #2A2B2A;
+    --egg-plant: #5E4955;
+    --mount-pink: #996888;
+    --sapphire-blue: #006BA6;
+    --old-gold: #B8B42D;
+    --olive-drab: #697A21;
+    --cosmic-latte: #FFFCE8;
+    --onyx: #3E363F;
+    --vermillion: #DD403A;
+    --thistle: #D6C3C9;
+    --pale-taupe: #B49082;
+    --chestnut: #98473E;
+    --metal-sunburn: #A37C40;
+    --rich-black: #07090F;
+
+}
+
+html {
+    font-family: var(--comfortaa), sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+body {
+    background-color: var(--tuscan-red);
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 5rem;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; */
+}
+
+.container {
+    width: 100%;
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--cosmic-latte);
+}
+
+.nav-brand {
+    width: 2rem;
+}
+
+.menu-icons i {
+    font-size: 3.5rem;
+    color: var(--cosmic-latte);
+    cursor: pointer;
+}
+
+.close i {
+    color: var(--cosmic-latte);
+}
+
+.nav-list {
+    width: 25rem;
+    height: 100vh;
+    background-color: var(--old-gold);
+    position: fixed;
+    top: 0;
+    right: -13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    transition: all 650ms ease-in-out;
+}
+
+.nav-list:active {
+    right: 0;
+}
+
+.close {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+}
+
+.nav-item {
+    margin: 1.5rem 0;
+}
+
+.nav-link {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: var(--cosmic-latte);
+}
+
+
+
+
+
+
